@@ -1,0 +1,33 @@
+{
+    "name": "selwer/migration",
+    "description": "Easy migration. MySQL",
+    "license": "MIT",
+    "keywords": [
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Alex Selwer",
+            "email": "alex-a-99@yandex.ru"
+        }
+    ],
+    "homepage": "https://github.com/Selwer/migrations",
+    "autoload": {
+        "psr-4": {
+            "Selwer\\Migration\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.15 || ^6.0.8"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "SelwerTest\\Migration\\": "test/"
+        }
+    }
+}
